@@ -114,10 +114,10 @@ class DivisionController extends Controller
      * @param  \App\Models\Division  $division
      * @return \Illuminate\Http\Response
      */
-    public function destroy(int $id)
+    public function destroy(int $idDivision)
     {
         // Find the Division in DB
-        $division = Division::findOrFail($id);
+        $division = Division::findOrFail($idDivision);
         return redirect('division')->with('message', 'Division removed successfully!');
     }
 }

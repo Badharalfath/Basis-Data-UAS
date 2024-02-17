@@ -1,5 +1,5 @@
 <!-- Customize the form title depending on the value sent as an array -->
-<h1>{{ $mode }} Diviso</h1>
+<h1>{{ $mode }} Division</h1>
 
 @if (count($errors) > 0)
 <div class="alert alert-danger" role="alert">
